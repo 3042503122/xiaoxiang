@@ -1,0 +1,61 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/teamBuy/teamBuy",
+    "pages/commission/commission",
+    "pages/personal/personal"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#421384",
+    "navigationBarTextStyle": "white",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#7e32bb",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "分享赚",
+        "iconPath": "images/7.png",
+        "selectedIconPath": "images/7-1.png"
+      },
+      {
+        "pagePath": "pages/teamBuy/teamBuy",
+        "text": "社区团",
+        "iconPath": "images/8.png",
+        "selectedIconPath": "images/8-1.png"
+      },
+      {
+        "pagePath": "pages/commission/commission",
+        "text": "佣金",
+        "iconPath": "images/9.png",
+        "selectedIconPath": "images/9-1.png"
+      },
+      {
+        "pagePath": "pages/personal/personal",
+        "text": "我的",
+        "iconPath": "images/10.png",
+        "selectedIconPath": "images/10-1.png"
+      }
+    ],
+    "position": "bottom"
+  },
+  "networkTimeout": {
+    "request": 5000,
+    "downloadFile": 5000
+  },
+  "debug": false,
+  "navigateToMiniProgramAppIdList": [
+    "wxe8e6b9bf45e660a6",
+    "wxf463e50cd384beda"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置信息将用于注册店长时定位您的店铺位置"
+    }
+  }
+}
